@@ -1,3 +1,7 @@
+# reactic-toe
+
+It's just tic-tac-toe with unoptimized matrix operations.
+
 ```log
 Warning: Each child in a list should have a unique "key" prop.
 

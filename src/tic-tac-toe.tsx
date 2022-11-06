@@ -1,5 +1,5 @@
 import React from "react";
-import winner from "./util";
+import {RANK, winner} from "./util";
 import { BoardRow } from "./board-row";
 
 interface ISquareProps {
@@ -70,8 +70,6 @@ class Board extends React.Component<IBoardProps, IBoardState> {
     );
   }
 }
-
-const RANK = 5;
 
 export default class Game extends React.Component {
   render() {
