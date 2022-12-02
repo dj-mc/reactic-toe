@@ -48,7 +48,11 @@ function calc_diagonals(
   // |__|_,|__|._|__|
   // |_,|__|__|__|._|
 
-  // i is the row index, j is the column index
+  // If you're confused:
+  // i is the "row index", j is the "column index"
+  // Or rather j is the index of the elements of the row it belongs to,
+  // so that each element of an i'th row can be thought of as a j'th column.
+
   // (offset i = +1, offset j = +0, captured offset = -1):
   //  __ __ __ __ __
   // |__|__|__|__|__|
